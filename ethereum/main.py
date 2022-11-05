@@ -4,7 +4,7 @@ import codecs
 import requests
 import time
 import ecdsa
-from Crypto.Hash import keccak
+from Crypto.Hash import keccak #pip install cryptodome
 
 def checksum_address(address):
     checksum = '0x'
